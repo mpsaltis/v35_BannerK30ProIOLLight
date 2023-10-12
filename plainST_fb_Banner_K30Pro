@@ -10,32 +10,32 @@ END_VAR
 VAR_OUTPUT
 END_VAR
 VAR
+	abEnableIOLDevice : SINT; (* Map to IO Channel Outputs*)
 	abOutput 	: ARRAY[0..7] OF BYTE; (* Map to IO Channel Outputs*)
 END_VAR
 
-
 (*====== Output Enable (Enables Output for System Filed =======*)
-abOutput[0].1 := TRUE;
+abEnableIOLDevice := 1;
 
 (*====== Color 2 Control =======*)
-abOutput[2].0 := enumColor2.0;
-abOutput[2].1 := enumColor2.1;
-abOutput[2].2 := enumColor2.2;
-aboutput[2].3 := enumColor2.3;
-abOutput[2].4 := enumColor2.4;
-abOutput[2].5 := enumIntensity2.0;
-abOutput[2].6 := enumIntensity2.1;
-abOutput[2].7 := enumIntensity2.2;
+abOutput[0].0 := enumColor2.0;
+abOutput[0].1 := enumColor2.1;
+abOutput[0].2 := enumColor2.2;
+aboutput[0].3 := enumColor2.3;
+abOutput[0].4 := enumColor2.4;
+abOutput[0].5 := enumIntensity2.0;
+abOutput[0].6 := enumIntensity2.1;
+abOutput[0].7 := enumIntensity2.2;
 
 (*====== Color 1 Control =======*)
-abOutput[3].0 := enumColor1.0;
-abOutput[3].1 := enumColor1.1;
-abOutput[3].2 := enumColor1.2;
-aboutput[3].3 := enumColor1.3;
-abOutput[3].4 := enumColor1.4;
-abOutput[3].5 := enumIntensity1.0;
-abOutput[3].6 := enumIntensity1.1;
-abOutput[3].7 := enumIntensity1.2;
+abOutput[1].0 := enumColor1.0;
+abOutput[1].1 := enumColor1.1;
+abOutput[1].2 := enumColor1.2;
+aboutput[1].3 := enumColor1.3;
+abOutput[1].4 := enumColor1.4;
+abOutput[1].5 := enumIntensity1.0;
+abOutput[1].6 := enumIntensity1.1;
+abOutput[1].7 := enumIntensity1.2;
 
 
 
