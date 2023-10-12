@@ -1,0 +1,20 @@
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE enumK30ProColor :
+(
+	Green,
+	Red,
+	Orange,
+	Amber,
+	Yellow,
+	LimeGreen,
+	SpringGreen,
+	Cyan,
+	SkyBlue,
+	Blue,
+	Violet,
+	Magenta,
+	Rose,
+	White
+);
+END_TYPE
