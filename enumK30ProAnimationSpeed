@@ -1,0 +1,10 @@
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE enumK30ProAnimationSpeed :
+(
+	High,
+	Medium,
+	Low,
+	Off
+)BYTE;
+END_TYPE
