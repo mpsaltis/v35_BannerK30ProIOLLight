@@ -1,0 +1,19 @@
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE enumK30ProAnimationType :
+(
+	Off,
+	Steady,
+	Flash,
+	TwoColorFlash,
+	FiftyFifty,
+	FiftyFiftyRotate,
+	Chase,
+	IntensitySweep,
+	ColorSweep,
+	Sequence,
+	Wave,
+	DoubleWave
+	
+)BYTE;
+END_TYPE
